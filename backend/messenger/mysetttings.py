@@ -105,8 +105,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'messenger_clone',
-        'USER': 'root',
-        'PASSWORD': '',
+        'USER': 'ayoub',
+        'PASSWORD': 'ayoub2002',
         'HOST': 'localhost',
         'PORT': '3306',
     }
