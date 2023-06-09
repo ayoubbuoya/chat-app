@@ -33,25 +33,12 @@ This repository contains a chat app with several functionalities similar to a me
     cd frontend
     npm install
     ```
-4.  Set up the backend:
-
-    ```bash
-    cd ../backend
-    # Set up your virtual environment (Optional)
-    python3 -m venv venv
-    source venv/bin/activate
-    # Install dependencies
-    pip install -r requirements.txt
-    # Perform database migrations
-    python manage.py migrate
-    ```
-
-5.  Set up MySQL:
+4.  Set up MySQL:
 
         - Install MySQL on your machine if you haven't already.
         - Create a new MySQL database for the project.
 
-6.  Configure the Django settings to use MySQL:
+5.  Configure the Django settings to use MySQL:
 
     - In the backend/backend/settings.py file, locate the DATABASES section.
     - Update the DATABASES configuration to use your MySQL database credentials:
@@ -68,12 +55,26 @@ This repository contains a chat app with several functionalities similar to a me
         }
     }
     ```
+
+6.  Set up the backend:
+
+    ```bash
+    cd ../backend
+    # Set up your virtual environment (Optional)
+    python3 -m venv venv
+    source venv/bin/activate
+    # Install dependencies
+    pip install -r requirements.txt
+    # Perform database migrations
+    python manage.py migrate
+    ```
+
 7.  Start the frontend development server:
     ```bash
     cd ../frontend
     npm run dev
     ```
-8.  Start the backend server
+8.  Start the backend server in another terminal:
     ```bash
     cd ../backend
     python manage.py runserver
