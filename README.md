@@ -81,4 +81,4 @@ This repository contains a chat app with several functionalities similar to a me
     ```
 9.  Access the app in your web browser at http://localhost:5173.
 
-[![Chat App Demo](chat-app-thumbnail.png)](chat-app-demo.mp4)
+[![Chat App Demo](./chat-app-thumbnail.png)](./chat-app-demo.mp4)
